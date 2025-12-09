@@ -1,0 +1,9 @@
+data:
+  source_table: "fct_claim"
+  id_columns: ["member_id", "claim_id"]
+  datetime_columns: ["admission_dt", "discharge_dt"]
+  lookback_days: 730
+  target_window_days: 30
+  exclusions:
+    planned_drgs: [] # List of DRGs to exclude
+    transfer_codes: [] # List of discharge status codes to exclude

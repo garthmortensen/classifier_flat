@@ -1,0 +1,15 @@
+project:
+  name: "readmission_risk"
+  env: "dev"
+
+database:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  database: "aca_health"
+  username: "etl"
+  password: "etl"
+  schema: "dw"
+
+output:
+  root_dir: "output"

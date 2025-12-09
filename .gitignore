@@ -1,0 +1,74 @@
+# --- Python & General ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+dist/
+build/
+*.egg-info/
+site/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+.python-version
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs & outputs
+logs/
+*.log
+output/
+outputs/
+
+# --- uv (Python package manager) ---
+uv.lock
+.uv/
+
+# --- LangChain / LLM pipelines ---
+.langchain/
+langchain.db
+callback_logs/
+
+# --- ML tooling ---
+wandb/
+mlruns/
+.dvc/
+
+# --- Data & artifacts ---
+data/
+datasets/
+artifacts/
+models/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
